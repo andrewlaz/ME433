@@ -81,7 +81,7 @@ void mcp_write(uint8_t reg, uint8_t value) {
 // Read a byte from an MCP23008 register
 uint8_t mcp_read(uint8_t reg) {
     uint8_t value;
-    i2c_write_blocking(I2C_PORT, ADDR, &reg, 1, true);  // true = keep bus
+    i2c_write_blocking(I2C_PORT, ADDR, &reg, 1, true); 
     i2c_read_blocking(I2C_PORT, ADDR, &value, 1, false);
     return value;
 }
