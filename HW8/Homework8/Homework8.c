@@ -57,7 +57,7 @@ void writeDAC(int channel, float v) {
 int main() {
     stdio_init_all();
 
-    spi_init(SPI_PORT, 1000 * 1000 * 20);
+    spi_init(SPI_PORT, 1000 * 1000 * 2);
     gpio_set_function(PIN_MISO, GPIO_FUNC_SPI);
     gpio_set_function(PIN_SCK, GPIO_FUNC_SPI);
     gpio_set_function(PIN_MOSI, GPIO_FUNC_SPI);
@@ -78,8 +78,36 @@ int main() {
             update_dac_from_ram(i * 4);
             sleep_ms(1);
         }
+        /*for (int i = 0; i < 10; i++) {
+            union FloatBytes fb_write, fb_read;
+
+            fb_write.f = (float)i * 0.5f;
+
+            spi_ram_write(i * 4, fb_write.bytes, 4);
+            spi_ram_read(i * 4, fb_read.bytes, 4);
+
+            printf("addr %d: wrote %f read %f\n", i*4, fb_write.f, fb_read.f);
+        }*/
+        // write a known value
+        /*union FloatBytes fb_write;
+        fb_write.f = 1.23f;
+        spi_ram_write(0, fb_write.bytes, 4);
+
+        // read it back
+        union FloatBytes fb_read;
+        spi_ram_read(0, fb_read.bytes, 4);
+
+        printf("wrote: %f, read back: %f\n", fb_write.f, fb_read.f);*?
+    }
+    /*while (true) {
+    for (int i = 0; i < 1000; i++) {
+        float v = (sinf(2.0f * 3.14159f * i / 1000.0f) + 1.0f) / 2.0f * 3.3f;
+        writeDAC(0, v);
+        sleep_ms(1);
+    }*/
     }
 }
+
 
 void spi_ram_init() {
     uint8_t data[2];
