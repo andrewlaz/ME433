@@ -1,0 +1,35 @@
+2026-05-10 12:28:10,663 [INFO] Activator:176 - 
+
+
+2026-05-10 12:28:10,668 [INFO] Activator:177 - !SESSION log4j initialized
+2026-05-10 12:28:24,204 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-05-10 12:28:56,126 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Start the detection of the machine's architecture
+2026-05-10 12:28:56,157 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] use intel architecture
+2026-05-10 12:28:56,158 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] sysctl exited with code 1
+2026-05-10 12:28:56,159 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Architecture: Intel (x86_64)
+2026-05-10 12:33:11,788 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2026-05-10 12:49:03,195 [INFO] Activator:176 - 
+
+
+2026-05-10 12:49:03,198 [INFO] Activator:177 - !SESSION log4j initialized
+2026-05-10 12:49:07,246 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-05-10 12:49:37,654 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Start the detection of the machine's architecture
+2026-05-10 12:49:37,674 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] use intel architecture
+2026-05-10 12:49:37,675 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] sysctl exited with code 1
+2026-05-10 12:49:37,676 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Architecture: Intel (x86_64)
+2026-05-10 12:50:30,767 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2026-05-10 12:50:48,322 [INFO] Activator:176 - 
+
+
+2026-05-10 12:50:48,324 [INFO] Activator:177 - !SESSION log4j initialized
+2026-05-10 12:50:53,248 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-05-10 12:51:34,255 [INFO] Activator:176 - 
+
+
+2026-05-10 12:51:34,257 [INFO] Activator:177 - !SESSION log4j initialized
+2026-05-10 12:51:38,352 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-05-10 12:52:08,718 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Start the detection of the machine's architecture
+2026-05-10 12:52:08,733 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] use intel architecture
+2026-05-10 12:52:08,734 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] sysctl exited with code 1
+2026-05-10 12:52:08,734 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Architecture: Intel (x86_64)
+2026-05-10 12:52:29,399 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

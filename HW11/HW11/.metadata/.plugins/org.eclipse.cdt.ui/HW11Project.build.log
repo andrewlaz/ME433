@@ -1,0 +1,10 @@
+14:07:02 **** Incremental Build of configuration Debug for project HW11Project ****
+make -j7 all 
+arm-none-eabi-size  HW11Project.elf 
+   text	   data	    bss	    dec	    hex	filename
+  19428	    128	   2240	  21796	   5524	HW11Project.elf
+Finished building: default.size.stdout
+ 
+
+14:07:02 Build Finished. 0 errors, 0 warnings. (took 147ms)
+
