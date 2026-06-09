@@ -2,7 +2,7 @@ import serial
 import matplotlib.pyplot as plt
 import numpy as np
 
-PORT       = '/dev/tty.usbmodem14201'      # Change to your port (e.g. '/dev/ttyACM0' on Linux/Mac)
+PORT       = '/dev/tty.usbmodem14101'      # Change to your port (e.g. '/dev/ttyACM0' on Linux/Mac)
 BAUD       = 115200
 N_SAMPLES  = 400         # Number of samples to collect (~5s at 80Hz)
 
