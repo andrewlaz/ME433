@@ -19,9 +19,9 @@
 #define LINK_BAUD   115200
 
 // ---------------- Bump effect parameters ----------------
-#define BUMP_PEAK   200.0f   // peak current in mA at center of bump
-#define BUMP_CENTER 2048.0f  // center angle (0-4095), 2048 = middle
-#define BUMP_WIDTH  300.0f   // width of the bump in angle counts
+#define BUMP_PEAK   100.0f   // peak current in mA at center of bump
+#define BUMP_CENTER 3000.0f  // center angle (0-4095), 2048 = middle
+#define BUMP_WIDTH  50.0f   // width of the bump in angle counts
 
 // ================= AS5600 functions =================
 void as5600_init(void) {
